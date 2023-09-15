@@ -46,7 +46,6 @@ export default function Main() {
         Breakfast: {breakfast}
         <br />
         <button onClick={navigateToBook} class="button-5" role="button">Book your meal now!</button>
-
       </h1>
     </main>
   )
