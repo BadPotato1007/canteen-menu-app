@@ -30,6 +30,14 @@ else if (day == 5) {
   lunch = "lunch-fri";
   breakfast = "break-fri";
 }
+else if (day == 6) {
+  lunch = "   -   ";
+  breakfast = "   -   ";
+}
+else if (day == 7) {
+  lunch = "   -   ";
+  breakfast = "   -   ";
+}
 export default function Main() {
   const navigate = useNavigate();
 
@@ -47,6 +55,8 @@ export default function Main() {
         <br />
         <button onClick={navigateToBook} class="button-5" role="button">Book your meal now!</button>
       </h1>
+      <div class='bottom' position={"absolute"} height="calc('5vh')" width="100%" zIndex={10}>For more information, contact us at +91 9591062626</div>
+
     </main>
   )
 }

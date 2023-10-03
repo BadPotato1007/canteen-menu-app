@@ -74,3 +74,9 @@ main{
 
   
 }
+.bottom {
+  position: absolute;
+  bottom: 0px;
+  width:99%;
+
+}
