@@ -1,7 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-body{
+.alignments{
+  text-align: center;
+  vertical-align: center;
+  background-color:#f2e9ea;
+  font-family: 'Poppins', sans-serif;
+}
+
+.body{
   padding-left: 35%;
+  vertical-align: center;
+  background-color:#f2e9ea;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
   vertical-align: center;
   background-color:#f2e9ea;
   font-family: 'Poppins', sans-serif;

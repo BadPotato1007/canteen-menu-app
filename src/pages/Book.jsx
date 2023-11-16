@@ -68,7 +68,7 @@ export default function Book() {
 
   return (
 
-    <main >
+    <main class="body">
       <h1>
         Name:   ‎ ‎  <input size="50"
           type="text"
