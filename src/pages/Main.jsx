@@ -11,23 +11,23 @@ let day = (d.getDay()) + 1;
 let lunch = "lunch";
 let breakfast = "breakfast";
 if (day == 1) {
-  lunch = "lunch-mon";
+  lunch = "Sabzi + Chapati + Dal + Rice + Curd + Papad";
   breakfast = "break-mon";
 }
 else if (day == 2) {
-  lunch = "lunch-tue";
+  lunch = "Curry + Chapati + Rasam + Rice + Curd + Papad";
   breakfast = "break-tue";
 }
 else if (day == 3) {
-  lunch = "lunch-wed";
+  lunch = "Special - Rice + Noodles + ketchup + ketchup";
   breakfast = "break-wed";
 }
 else if (day == 4) {
-  lunch = "lunch-thurs";
+  lunch = "Sabzi + Chapati + Sambar + Rice + Curd + Papad";
   breakfast = "break-thurs";
 }
 else if (day == 5) {
-  lunch = "lunch-fri";
+  lunch = "Pulao + raita + Pasta + ketchup";
   breakfast = "break-fri";
 }
 else if (day == 6) {
@@ -46,7 +46,7 @@ export default function Main() {
     navigate('/book');
   };
   return (
-    <main>
+    <main class="alignments">
       <h1>Menu on <b>{dayWord}</b>
         <br />
         Lunch: {lunch}

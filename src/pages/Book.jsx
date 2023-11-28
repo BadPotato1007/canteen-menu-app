@@ -68,31 +68,47 @@ export default function Book() {
 
   return (
 
-    <main >
+    <main class="body">
       <h1>
-        Name: <input size="50"
+        Name:   ‎ ‎  <input size="50"
           type="text"
           id="studentname"
           name="studentname"
           onChange={handleChangeName}
           value={studentname}
         /><br />
-        Grade: <input size="50"
-          type="text"
-          id="studentgrade"
+        Grade: ‎ ‎ ‎
+        <select         id="studentgrade"
           name="studentgrade"
           onChange={handleChangeGrade}
-          value={studentgrade}
-
-        /><br />
-        Section: <input size="50"
-          type="text"
-          id="studentSection"
-          name="studentSection"
-          onChange={handleChangeSec}
-          value={studentsec}
-        /><br />
-        Meal:‎ ‎ ‎
+          value={studentgrade}>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select>
+        
+        
+      <br />
+        Section: <select         id="studentgrade"
+          name="studentgrade"
+          onChange={handleChangeGrade}
+          value={studentgrade}>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+          <option value="E">E</option>
+        </select><br />
+        Meal:‎ ‎ ‎‎ ‎ ‎‎ ‎ 
         <select id="studentMeal"
           name="studentMeal"
           onChange={handleChangeItem}
@@ -101,7 +117,7 @@ export default function Book() {
           <option onChange={handleChangeItem} value="Lunch">Lunch</option>
           <option onChange={handleChangeItem} value="Breakfast">Breakfast</option>
 
-        </select><br />
+        </select><br /><br />
 
 
 
