@@ -19,7 +19,7 @@ else if (day == 2) {
   breakfast = "break-tue";
 }
 else if (day == 3) {
-  lunch = "Special - Rice + Noodles + ketchup + ketchup";
+  lunch = "Special - Rice + Noodles + ketchup";
   breakfast = "break-wed";
 }
 else if (day == 4) {
@@ -47,12 +47,11 @@ export default function Main() {
   };
   return (
     <main class="alignments">
-      <h1>Menu on <b>{dayWord}</b>
+      <h1>Menu on <bold>{dayWord}</bold><br />
         <br />
         Lunch: {lunch}
-        <br />
-        Breakfast: {breakfast}
-        <br />
+        <br /><br /><br />
+
         <button onClick={navigateToBook} class="button-5" role="button">Book your meal now!</button>
       </h1>
       <div class='bottom' position={"absolute"} height="calc('5vh')" width="100%" zIndex={10}>For more information, contact us at +91 9591062626</div>
