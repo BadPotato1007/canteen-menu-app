@@ -98,10 +98,10 @@ export default function Book() {
         
         
       <br />
-        Section: <select         id="studentgrade"
-          name="studentgrade"
-          onChange={handleChangeGrade}
-          value={studentgrade}>
+        Section: <select         id="studentsec"
+          name="studentsec"
+          onChange={handleChangeSec}
+          value={studentsec}>
           <option value="A">A</option>
           <option value="B">B</option>
           <option value="C">C</option>

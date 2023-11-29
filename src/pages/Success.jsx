@@ -11,7 +11,9 @@ export default function Success(){
     <ChakraProvider ><Center><Box bg='green.300' w="100%">
         <Box bg='green.300' pl={"25%"} align="center" alignSelf={"center"} textAlign={'center'} h='calc(95vh)' w='calc(200vh)'>
         <Flex minHeight="100vh"  minWidth="100%">
+          <img height ="80%" src="https://i.ibb.co/L6sycG2/upi-1701140754335.png"></img>
         <HStack spacing={2}>
+            
             <Text  align='center' fontSize='6xl'>Placed Order Successfully!</Text>
         </HStack>
         </Flex>
